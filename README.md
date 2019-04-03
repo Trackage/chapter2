@@ -25,5 +25,8 @@ tinytex::latexmk("chapter2.tex")
 
   - some hardcoded figures “figures/gunnArchival.png” and the KDE ones
     were copied from artefacts
+
   - no citations work, I can’t find my bib file yet and `\citep` has
     been redefined in newcom.tex
+
+  - missing .DAT files for the black browed

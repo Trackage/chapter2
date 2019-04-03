@@ -58,6 +58,7 @@
 \setcounter{secnumdepth}{2}
 \setcounter{tocdepth}{2}
 \usepackage{url}
+\usepackage{natbib}
 \usepackage[unicode=true,pdfusetitle,
  bookmarks=true,bookmarksnumbered=true,bookmarksopen=true,bookmarksopenlevel=2,
  breaklinks=false,pdfborder={0 0 1},backref=false,colorlinks=false]
@@ -2220,27 +2221,18 @@ text.
 \hlcom{## load("E:\textbackslash{}\textbackslash{}mike\textbackslash{}\textbackslash{}working\textbackslash{}\textbackslash{}doc\textbackslash{}\textbackslash{}PhD\textbackslash{}\textbackslash{}Thesis-MDSUMNER\textbackslash{}\textbackslash{}figuredata\textbackslash{}\textbackslash{}RawArgos.Rdata")}
 
 \hlstd{dat} \hlkwb{<-} \hlkwd{read.csv}\hlstd{(}\hlstr{"trackfile.csv"}\hlstd{)}
-\end{alltt}
-
-
-{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in file(file, "{}rt"{}): cannot open the connection}}\begin{alltt}
 \hlkwd{names}\hlstd{(dat)}  \hlcom{#[1] "long" "lat"  "seal"  "date"    "local"     "lq"}
 \end{alltt}
-
-
-{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in eval(expr, envir, enclos): object 'dat' not found}}\begin{alltt}
+\begin{verbatim}
+## [1] "long"  "lat"   "seal"  "date"  "local" "lq"
+\end{verbatim}
+\begin{alltt}
 \hlkwd{library}\hlstd{(sp)}
 \hlkwd{coordinates}\hlstd{(dat)} \hlkwb{<-} \hlkwd{c}\hlstd{(}\hlstr{"long"}\hlstd{,} \hlstr{"lat"}\hlstd{)}
-\end{alltt}
-
-
-{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in coordinates(dat) <- c("{}long"{}, "{}lat"{}): object 'dat' not found}}\begin{alltt}
 \hlstd{dat}\hlopt{$}\hlstd{gmt} \hlkwb{<-} \hlkwd{as.POSIXct}\hlstd{(}\hlkwd{strptime}\hlstd{(}\hlkwd{paste}\hlstd{(dat}\hlopt{$}\hlstd{date, dat}\hlopt{$}\hlstd{local),}
                       \hlstr{"%d-%b-%y %H:%M:%S"}\hlstd{),} \hlkwc{tz} \hlstd{=} \hlstr{"GMT"}\hlstd{)} \hlopt{-} \hlnum{10} \hlopt{*} \hlnum{3600}
 \end{alltt}
-
-
-{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in paste(dat\$date, dat\$local): object 'dat' not found}}\end{kframe}
+\end{kframe}
 \end{knitrout}
 
 A data frame in \proglang{R} is read in from text file using
@@ -2281,11 +2273,9 @@ problems that need to be dealt with.
 \end{knitrout}
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
-\begin{verbatim}
-## Error in trip(dat, c("gmt", "seal")) : object 'dat' not found
-## Error in trip(dat, c("gmt", "seal")) : object 'dat' not found
-\end{verbatim}
-\end{kframe}
+
+
+{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in cat(try\_out): argument 1 (type 'S4') cannot be handled by 'cat'}}\end{kframe}
 \end{knitrout}
 
 The \texttt{trip} function takes the \texttt{SpatialPointsDataFrame}
@@ -2374,9 +2364,7 @@ section begins with the raw data frame of track data from
 \begin{alltt}
 \hlstd{dat} \hlkwb{<-} \hlkwd{as.data.frame}\hlstd{(dat)}
 \end{alltt}
-
-
-{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in as.data.frame(dat): object 'dat' not found}}\end{kframe}
+\end{kframe}
 \end{knitrout}
 
 There are a number of simple problems at this stage that the
@@ -2388,15 +2376,18 @@ dropped.
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
 \begin{alltt}
 \hlstd{dat} \hlkwb{<-} \hlstd{dat[}\hlopt{!}\hlkwd{duplicated}\hlstd{(dat), ]}
-\end{alltt}
-
-
-{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in eval(expr, envir, enclos): object 'dat' not found}}\begin{alltt}
 \hlkwd{head}\hlstd{(dat)}
 \end{alltt}
-
-
-{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in head(dat): object 'dat' not found}}\end{kframe}
+\begin{verbatim}
+##       long       lat seal      date    local lq                 gmt
+## 1 158.9467 -54.49333 b284 21-Jan-99 13:43:51  A 1999-01-21 03:43:51
+## 2 155.2533 -54.42833 b284 21-Jan-99 15:18:53  B 1999-01-21 05:18:53
+## 3 155.8400 -56.30833 b284 23-Jan-99 16:45:51  B 1999-01-23 06:45:51
+## 4 159.3850 -56.10167 b284 23-Jan-99 13:03:35  B 1999-01-23 03:03:35
+## 5 159.9650 -58.35333 b284 25-Jan-99 16:19:17  B 1999-01-25 06:19:17
+## 6 158.8917 -57.99000 b284 25-Jan-99  4:45:15  B 1999-01-24 18:45:15
+\end{verbatim}
+\end{kframe}
 \end{knitrout}
 
 The discarded rows removed are exact duplicate rows, matched on every
@@ -2412,9 +2403,7 @@ a data set.
 \begin{alltt}
 \hlstd{dat} \hlkwb{<-} \hlstd{dat[}\hlkwd{order}\hlstd{(dat}\hlopt{$}\hlstd{seal, dat}\hlopt{$}\hlstd{gmt), ]}
 \end{alltt}
-
-
-{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in eval(expr, envir, enclos): object 'dat' not found}}\end{kframe}
+\end{kframe}
 \end{knitrout}
 
 A final problem is that subsequent date-times within a single trip ID
@@ -2434,9 +2423,7 @@ difference is not zero.
 \begin{alltt}
 \hlstd{dat}\hlopt{$}\hlstd{gmt} \hlkwb{<-} \hlkwd{adjust.duplicateTimes}\hlstd{(dat}\hlopt{$}\hlstd{gmt, dat}\hlopt{$}\hlstd{seal)}
 \end{alltt}
-
-
-{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in tapply(time, id, duplicated): object 'dat' not found}}\end{kframe}
+\end{kframe}
 \end{knitrout}
 
 Further data problems are more fundamental and do not have easy
@@ -2466,15 +2453,9 @@ validation is possible.
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
 \begin{alltt}
 \hlkwd{coordinates}\hlstd{(dat)} \hlkwb{<-} \hlkwd{c}\hlstd{(}\hlstr{"long"}\hlstd{,} \hlstr{"lat"}\hlstd{)}
-\end{alltt}
-
-
-{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in coordinates(dat) <- c("{}long"{}, "{}lat"{}): object 'dat' not found}}\begin{alltt}
 \hlstd{tr} \hlkwb{<-} \hlkwd{trip}\hlstd{(dat,} \hlkwd{c}\hlstd{(}\hlstr{"gmt"}\hlstd{,} \hlstr{"seal"}\hlstd{))}
 \end{alltt}
-
-
-{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in trip(dat, c("{}gmt"{}, "{}seal"{})): object 'dat' not found}}\end{kframe}
+\end{kframe}
 \end{knitrout}
 
 The location quality class is converted to an ordered factor, and the
@@ -2520,39 +2501,45 @@ frame. The filtering algorithm is that of \cite{MCF92}.
 ## 
 ## Object of class trip
 ##   tripID ("seal") No.Records   startTime ("gmt")     endTime ("gmt")  tripDuration
-## 1            c026        351 1999-01-01 00:35:59 1999-05-21 15:29:17 140.6203 days
-##   tripDistance meanSpeed maxSpeed meanRMSspeed maxRMSspeed
-## 1     23490.23  120.4115 29332.07     119.2497    14666.07
+## 1            b284        281 1999-01-21 03:43:51 1999-06-09 04:34:22 139.0351 days
+## 2            b290        255 1999-01-29 19:30:59 1999-07-02 22:52:25 154.1399 days
+## 3            c026        351 1999-01-01 02:27:28 1999-05-20 18:51:27 139.6833 days
+## 4            c993        258 1999-01-07 02:59:53 1999-04-24 03:04:44 107.0034 days
+##   tripDistance  meanSpeed    maxSpeed meanRMSspeed maxRMSspeed
+## 1     24099.26 488.307626 128448.7448   485.784299  64224.3759
+## 2     12405.70   9.039951    209.6750     8.338208    106.7682
+## 3     21136.85  25.904843    736.3698    24.210892    417.9929
+## 4     28673.24  52.616908   1449.5900    49.126440    725.0411
 ## 
-## Total trip duration: 12149598 seconds (3374 hours, 3198 seconds)
+## Total trip duration: 46644047 seconds (12956 hours, 2447 seconds)
 ## 
 ## Derived from Spatial data:
 ## 
 ## Object of class SpatialPointsDataFrame
 ## Coordinates:
 ##            min       max
-## long 156.46667 189.99167
+## long 128.27167 198.99167
 ## lat  -78.06333 -52.85667
 ## Is projected: FALSE 
 ## proj4string : [+proj=longlat +ellps=WGS84 +over]
-## Number of points: 351
+## Number of points: 1145
 ## Data attributes:
-##    seal            date          local          gmt                      lq      class  
-##  c026:351   27-Jan-99: 10   14:42:21:  2   Min.   :1999-01-01 00:35:59   0: 38   Z:  0  
-##             17-Jan-99:  8   15:29:50:  2   1st Qu.:1999-01-29 14:28:14   1: 10   B:214  
-##             14-Mar-99:  7   0:04:01 :  1   Median :1999-02-26 01:22:56   2:  8   A: 80  
-##             15-Mar-99:  7   0:04:05 :  1   Mean   :1999-03-01 17:53:25   3:  1   0: 38  
-##             28-Jan-99:  7   0:10:34 :  1   3rd Qu.:1999-03-26 14:44:51   A: 80   1: 10  
-##             6-Feb-99 :  7   0:16:15 :  1   Max.   :1999-05-21 15:29:17   B:214   2:  8  
-##             (Other)  :305   (Other) :343                                         3:  1  
-##      ok         
-##  Mode :logical  
-##  FALSE:75       
-##  TRUE :276      
-##                 
-##                 
-##                 
-## 
+##    seal            date           local      lq           gmt                     
+##  b284:281   5-Feb-99 :  20   15:29:50:   3   0:114   Min.   :1999-01-01 02:27:28  
+##  b290:255   10-Mar-99:  17   14:42:21:   2   1: 31   1st Qu.:1999-02-11 06:03:36  
+##  c026:351   11-Feb-99:  17   14:48:07:   2   2: 18   Median :1999-03-10 19:43:05  
+##  c993:258   21-Mar-99:  17   16:08:14:   2   3:  1   Mean   :1999-03-15 13:10:03  
+##             23-Feb-99:  16   16:18:30:   2   A:281   3rd Qu.:1999-04-10 06:18:01  
+##             10-Apr-99:  15   16:39:55:   2   B:700   Max.   :1999-07-02 22:52:25  
+##             (Other)  :1043   (Other) :1132                                        
+##  class       ok         
+##  Z:  0   Mode :logical  
+##  B:700   FALSE:230      
+##  A:281   TRUE :915      
+##  0:114                  
+##  1: 31                  
+##  2: 18                  
+##  3:  1
 \end{verbatim}
 \end{kframe}
 \end{knitrout}

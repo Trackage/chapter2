@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.12)  3 APR 2019 02:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.12)  3 APR 2019 03:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -88,6 +88,12 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip44
+\bibsep=\skip45
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count90
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -137,12 +143,12 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen117
-\Hy@linkcounter=\count90
-\Hy@pagecounter=\count91
+\Hy@linkcounter=\count91
+\Hy@pagecounter=\count92
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count92
+\Hy@SavedSpaceFactor=\count93
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
@@ -164,10 +170,10 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count93
+\c@Hy@tempcnt=\count94
 LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen118
-\Fld@menulength=\count94
+\Fld@menulength=\count95
 \Field@Width=\dimen119
 \Fld@charsize=\dimen120
 Package hyperref Info: Hyper figures OFF on input line 6369.
@@ -179,21 +185,21 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count95
-\c@Item=\count96
-\c@Hfootnote=\count97
+\Hy@abspage=\count96
+\c@Item=\count97
+\c@Hfootnote=\count98
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count98
-\c@bookmark@seq@number=\count99
+\Fld@listcount=\count99
+\c@bookmark@seq@number=\count100
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip44
+\Hy@SectionHShift=\skip46
 ) (/usr/share/texlive/texmf-dist/tex/latex/breakurl/breakurl.sty
 Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
 (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
@@ -203,7 +209,7 @@ ive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks16
 \XKV@tempa@toks=\toks17
 )
-\XKV@depth=\count100
+\XKV@depth=\count101
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 
@@ -302,43 +308,43 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )) (./chapter2.aux)
 \openout1 = `chapter2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 71.
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Try loading font information for T1+pplx on input line 70.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Try loading font information for T1+pplx on input line 71.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplx.fd
 File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count101
+\scratchcounter=\count102
 \scratchdimen=\dimen121
 \scratchbox=\box26
-\nofMPsegments=\count102
-\nofMParguments=\count103
+\nofMPsegments=\count103
+\nofMParguments=\count104
 \everyMPshowfont=\toks18
-\MPscratchCnt=\count104
+\MPscratchCnt=\count105
 \MPscratchDim=\dimen122
-\MPnumerator=\count105
-\makeMPintoPDFobject=\count106
+\MPnumerator=\count106
+\makeMPintoPDFobject=\count107
 \everyMPtoPDFconversion=\toks19
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -395,62 +401,70 @@ Package geometry Warning: The marginal notes overrun the paper.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 70.
+Package hyperref Info: Link coloring OFF on input line 71.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count107
+\c@section@level=\count108
 )
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \ref on input line 71.
+LaTeX Info: Redefining \pageref on input line 71.
+LaTeX Info: Redefining \nameref on input line 71.
 (./chapter2.out) (./chapter2.out)
 \@outlinefile=\write3
 \openout3 = `chapter2.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+pplx on input line 78.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pplx.fd
 File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 78.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 78.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 78.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 78.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 86.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 87.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 108.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 109.
 
-LaTeX Warning: Citation `patterson2008state' on page 1 undefined on input line 
-108.
+Package natbib Warning: Citation `patterson2008state' on page 1 undefined on in
+put line 109.
 
 
-LaTeX Warning: Citation `breedthesis' on page 1 undefined on input line 109.
+Package natbib Warning: Citation `breedthesis' on page 1 undefined on input lin
+e 110.
 
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 137.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 162.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 138.
+
+Package natbib Warning: Citation `patterson2010using' on page 1 undefined on in
+put line 144.
+
+
+Package natbib Warning: Citation `R' on page 1 undefined on input line 160.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 163.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -459,166 +473,263 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package color Info: Redefining color shadecolor on input line 227.
+Package color Info: Redefining color shadecolor on input line 228.
 <figure/minimal-unnamed-chunk-2-1.pdf, id=112, 505.89pt x 505.89pt>
 File: figure/minimal-unnamed-chunk-2-1.pdf Graphic file (type pdf)
 <use figure/minimal-unnamed-chunk-2-1.pdf>
 Package pdftex.def Info: figure/minimal-unnamed-chunk-2-1.pdf  used on input li
-ne 229.
+ne 230.
 (pdftex.def)             Requested size: 472.03123pt x 472.03983pt.
 [2] [3 <./figure/minimal-unnamed-chunk-2-1.pdf>]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 319.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 320.
 
-LaTeX Warning: Citation `Cooke2004' on page 4 undefined on input line 344.
-
-
-LaTeX Warning: Citation `WGSK02' on page 4 undefined on input line 344.
+Package natbib Warning: Citation `Cooke2004' on page 4 undefined on input line 
+345.
 
 
-LaTeX Warning: Citation `Kenward:VHF' on page 4 undefined on input line 345.
+Package natbib Warning: Citation `WGSK02' on page 4 undefined on input line 345
+.
 
 
-LaTeX Warning: Citation `argosfilter' on page 4 undefined on input line 405.
+Package natbib Warning: Citation `Kenward:VHF' on page 4 undefined on input lin
+e 346.
+
+
+Package natbib Warning: Citation `argosfilter' on page 4 undefined on input lin
+e 406.
 
 [4]
 
-LaTeX Warning: Citation `calenge2009concept' on page 5 undefined on input line 
-430.
-
-[5] [6]
-
-LaTeX Warning: Citation `hebblewhite2010distinguishing' on page 7 undefined on 
-input line 609.
+Package natbib Warning: Citation `calenge2009concept' on page 5 undefined on in
+put line 431.
 
 
-Overfull \hbox (5.75847pt too wide) in paragraph at lines 786--788
+Package natbib Warning: Citation `chambers1998programming' on page 5 undefined 
+on input line 442.
+
+[5]
+
+Package natbib Warning: Citation `maindonald2007data' on page 6 undefined on in
+put line 515.
+
+
+Package natbib Warning: Citation `googearth' on page 6 undefined on input line 
+537.
+
+[6]
+
+Package natbib Warning: Citation `hebblewhite2010distinguishing' on page 7 unde
+fined on input line 610.
+
+
+Package natbib Warning: Citation `geojson' on page 7 undefined on input line 61
+6.
+
+
+Package natbib Warning: Citation `beegle-pelagic' on page 7 undefined on input 
+line 616.
+
+
+Package natbib Warning: Citation `pauly-keeping' on page 7 undefined on input l
+ine 616.
+
+
+Package natbib Warning: Citation `anderson2010voyager' on page 7 undefined on i
+nput line 616.
+
+
+Package natbib Warning: Citation `fledermaus' on page 7 undefined on input line
+ 616.
+
+
+Overfull \hbox (5.75847pt too wide) in paragraph at lines 787--789
 []\T1/pplx/m/n/10 Paths com-posed of too few po-si-tions, in-con-sis-tent mo-ti
 on and as-sump-tions about straight
  []
 
 
-Overfull \hbox (35.05856pt too wide) in paragraph at lines 795--809
-\T1/pplx/m/n/10 prove-ments in an \T1/pplx/m/it/10 ad hoc \T1/pplx/m/n/10 way, 
-and the need for bet-ter ap-proaches is well un-der-stood \T1/pplx/b/n/10 breed
-the-sis,patterson2008state\T1/pplx/m/n/10 .
- []
+Package natbib Warning: Citation `breedthesis' on page 7 undefined on input lin
+e 799.
+
+
+Package natbib Warning: Citation `patterson2008state' on page 7 undefined on in
+put line 799.
 
 [7]
 
-LaTeX Warning: Citation `MCF92' on page 8 undefined on input line 860.
+Package natbib Warning: Citation `MCF92' on page 8 undefined on input line 861.
+
+
+
+Package natbib Warning: Citation `Argos:MAN' on page 8 undefined on input line 
+907.
+
+
+Package natbib Warning: Citation `Argos:MAN' on page 8 undefined on input line 
+916.
+
+
+Package natbib Warning: Citation `Vincent2002' on page 8 undefined on input lin
+e 918.
 
 [8]
-Package color Info: Redefining color shadecolor on input line 933.
+Package color Info: Redefining color shadecolor on input line 934.
 <figure/minimal-unnamed-chunk-3-1.pdf, id=173, 505.89pt x 505.89pt>
 File: figure/minimal-unnamed-chunk-3-1.pdf Graphic file (type pdf)
 <use figure/minimal-unnamed-chunk-3-1.pdf>
 Package pdftex.def Info: figure/minimal-unnamed-chunk-3-1.pdf  used on input li
-ne 935.
+ne 936.
 (pdftex.def)             Requested size: 472.03123pt x 472.03983pt.
 
-LaTeX Warning: Citation `MCF92' on page 9 undefined on input line 966.
+Package natbib Warning: Citation `MCF92' on page 9 undefined on input line 967.
 
-Package color Info: Redefining color shadecolor on input line 994.
+
+Package color Info: Redefining color shadecolor on input line 995.
 <figure/minimal-unnamed-chunk-4-1.pdf, id=175, 505.89pt x 505.89pt>
 File: figure/minimal-unnamed-chunk-4-1.pdf Graphic file (type pdf)
 <use figure/minimal-unnamed-chunk-4-1.pdf>
 Package pdftex.def Info: figure/minimal-unnamed-chunk-4-1.pdf  used on input li
-ne 996.
+ne 997.
 (pdftex.def)             Requested size: 472.03123pt x 472.03983pt.
 
-LaTeX Warning: Citation `douglasfilter' on page 9 undefined on input line 1028.
+Package natbib Warning: Citation `freitas2008simple' on page 9 undefined on inp
+ut line 1023.
+
+
+Package natbib Warning: Citation `douglasfilter' on page 9 undefined on input l
+ine 1029.
+
+
+Package natbib Warning: Citation `Taylor:BIRD' on page 9 undefined on input lin
+e 1029.
+
+
+Package natbib Warning: Citation `AMB2' on page 9 undefined on input line 1029.
 
 
 
-LaTeX Warning: Citation `Taylor:BIRD' on page 9 undefined on input line 1028.
-
-
-LaTeX Warning: Citation `AMB2' on page 9 undefined on input line 1028.
-
-
-LaTeX Warning: Citation `freitas2008simple' on page 9 undefined on input line 1
-030.
-
-
-LaTeX Warning: Citation `MCF92' on page 9 undefined on input line 1031.
-
-
-LaTeX Warning: Citation `freitas2008simple' on page 9 undefined on input line 1
+Package natbib Warning: Citation `diveMove' on page 9 undefined on input line 1
 031.
 
 
-LaTeX Warning: Citation `Argos:MAN' on page 9 undefined on input line 1038.
+Package natbib Warning: Citation `freitas2008simple' on page 9 undefined on inp
+ut line 1031.
 
 
-LaTeX Warning: Citation `roughpenalty' on page 9 undefined on input line 1083.
+Package natbib Warning: Citation `MCF92' on page 9 undefined on input line 1032
+.
+
+
+Package natbib Warning: Citation `freitas2008simple' on page 9 undefined on inp
+ut line 1032.
+
+
+Package natbib Warning: Citation `Argos:MAN' on page 9 undefined on input line 
+1039.
+
+
+Package natbib Warning: Citation `douglasfilter' on page 9 undefined on input l
+ine 1040.
+
+
+Package natbib Warning: Citation `BM02' on page 9 undefined on input line 1081.
+
+
+
+Package natbib Warning: Citation `TSF06' on page 9 undefined on input line 1082
+.
+
+
+Package natbib Warning: Citation `roughpenalty' on page 9 undefined on input li
+ne 1084.
 
 [9] [10 <./figure/minimal-unnamed-chunk-3-1.pdf>] [11 <./figure/minimal-unnamed
 -chunk-4-1.pdf>]
 
-LaTeX Warning: Citation `roughpenalty' on page 12 undefined on input line 1106.
+Package natbib Warning: Citation `roughpenalty' on page 12 undefined on input l
+ine 1107.
 
-
-Package color Info: Redefining color shadecolor on input line 1174.
+Package color Info: Redefining color shadecolor on input line 1175.
 <figure/minimal-unnamed-chunk-5-1.pdf, id=208, 505.89pt x 505.89pt>
 File: figure/minimal-unnamed-chunk-5-1.pdf Graphic file (type pdf)
 <use figure/minimal-unnamed-chunk-5-1.pdf>
 Package pdftex.def Info: figure/minimal-unnamed-chunk-5-1.pdf  used on input li
-ne 1176.
+ne 1177.
 (pdftex.def)             Requested size: 472.03123pt x 472.03983pt.
-Package color Info: Redefining color shadecolor on input line 1193.
+Package color Info: Redefining color shadecolor on input line 1194.
 <figure/minimal-unnamed-chunk-6-1.pdf, id=209, 505.89pt x 505.89pt>
 File: figure/minimal-unnamed-chunk-6-1.pdf Graphic file (type pdf)
 <use figure/minimal-unnamed-chunk-6-1.pdf>
 Package pdftex.def Info: figure/minimal-unnamed-chunk-6-1.pdf  used on input li
-ne 1195.
+ne 1196.
 (pdftex.def)             Requested size: 472.03123pt x 472.03983pt.
 
-LaTeX Warning: Citation `BHMS02' on page 12 undefined on input line 1281.
+Package natbib Warning: Citation `BHMS02' on page 12 undefined on input line 12
+82.
 
 
-Overfull \hbox (10.29858pt too wide) in paragraph at lines 1275--1292
-\T1/pplx/m/n/10 it quite sen-stive to the cho-sen ori-gin, bin size and ori-en-
-ta-tion \T1/pplx/b/n/10 si-monoff1996smoothing,silverman1998density\T1/pplx/m/n
-/10 .
- []
+Package natbib Warning: Citation `simonoff1996smoothing' on page 12 undefined o
+n input line 1286.
+
+
+Package natbib Warning: Citation `silverman1998density' on page 12 undefined on
+ input line 1286.
 
 [12] [13 <./figure/minimal-unnamed-chunk-5-1.pdf>] [14 <./figure/minimal-unname
 d-chunk-6-1.pdf>]
-Package color Info: Redefining color shadecolor on input line 1344.
+
+Package natbib Warning: Citation `simonoff1996smoothing' on page 15 undefined o
+n input line 1310.
+
+Package color Info: Redefining color shadecolor on input line 1345.
 <figure/minimal-unnamed-chunk-7-1.pdf, id=242, 505.89pt x 505.89pt>
 File: figure/minimal-unnamed-chunk-7-1.pdf Graphic file (type pdf)
 <use figure/minimal-unnamed-chunk-7-1.pdf>
 Package pdftex.def Info: figure/minimal-unnamed-chunk-7-1.pdf  used on input li
-ne 1346.
+ne 1347.
 (pdftex.def)             Requested size: 472.03123pt x 472.03983pt.
 
-LaTeX Warning: Citation `BHMS02' on page 15 undefined on input line 1373.
-
-
-LaTeX Warning: Citation `burns2004winter' on page 15 undefined on input line 13
+Package natbib Warning: Citation `BHMS02' on page 15 undefined on input line 13
 74.
 
 
-LaTeX Warning: Citation `BHMS02' on page 15 undefined on input line 1374.
+Package natbib Warning: Citation `burns2004winter' on page 15 undefined on inpu
+t line 1375.
 
-Package color Info: Redefining color shadecolor on input line 1383.
+
+Package natbib Warning: Citation `BHMS02' on page 15 undefined on input line 13
+75.
+
+Package color Info: Redefining color shadecolor on input line 1384.
 <figure/minimal-unnamed-chunk-8-1.pdf, id=244, 505.89pt x 505.89pt>
 File: figure/minimal-unnamed-chunk-8-1.pdf Graphic file (type pdf)
 <use figure/minimal-unnamed-chunk-8-1.pdf>
 Package pdftex.def Info: figure/minimal-unnamed-chunk-8-1.pdf  used on input li
-ne 1385.
+ne 1386.
 (pdftex.def)             Requested size: 472.03123pt x 472.03983pt.
 [15] [16 <./figure/minimal-unnamed-chunk-7-1.pdf>] [17 <./figure/minimal-unname
 d-chunk-8-1.pdf>]
+
+Package natbib Warning: Citation `Taylor:BIRD' on page 18 undefined on input li
+ne 1428.
+
+
+Package natbib Warning: Citation `simmons2007linking' on page 18 undefined on i
+nput line 1439.
+
+
+Package natbib Warning: Citation `Pinaud2007' on page 18 undefined on input lin
+e 1440.
+
 <figures/3Dplots-coarseGRIDvsKDE.png, id=280, 1015.795pt x 502.87875pt>
 File: figures/3Dplots-coarseGRIDvsKDE.png Graphic file (type png)
 <use figures/3Dplots-coarseGRIDvsKDE.png>
 Package pdftex.def Info: figures/3Dplots-coarseGRIDvsKDE.png  used on input lin
-e 1481.
+e 1482.
 (pdftex.def)             Requested size: 1015.79253pt x 502.87752pt.
 
-Overfull \hbox (543.76129pt too wide) in paragraph at lines 1481--1482
+Overfull \hbox (543.76129pt too wide) in paragraph at lines 1482--1483
  [] 
  []
 
@@ -626,228 +737,291 @@ Overfull \hbox (543.76129pt too wide) in paragraph at lines 1481--1482
 File: figures/3Dplots-fineGRIDvsKDE.png Graphic file (type png)
 <use figures/3Dplots-fineGRIDvsKDE.png>
 Package pdftex.def Info: figures/3Dplots-fineGRIDvsKDE.png  used on input line 
-1495.
+1496.
 (pdftex.def)             Requested size: 1017.80003pt x 502.87752pt.
 
-Overfull \hbox (545.7688pt too wide) in paragraph at lines 1495--1496
+Overfull \hbox (545.7688pt too wide) in paragraph at lines 1496--1497
  [] 
  []
 
 
-LaTeX Warning: Citation `thums2008tracking' on page 18 undefined on input line 
-1509.
+Package natbib Warning: Citation `thums2008tracking' on page 18 undefined on in
+put line 1510.
 
 
-LaTeX Warning: Reference `chapter5' on page 18 undefined on input line 1537.
+Package natbib Warning: Citation `keating2009modeling' on page 18 undefined on 
+input line 1535.
 
 
-LaTeX Warning: Citation `Gudmundsson1998' on page 18 undefined on input line 19
-81.
+LaTeX Warning: Reference `chapter5' on page 18 undefined on input line 1538.
+
+
+Package natbib Warning: Citation `Gudmundsson1998' on page 18 undefined on inpu
+t line 1982.
 
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <8> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 1988.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 1989.
 
-LaTeX Warning: Citation `rgdal' on page 18 undefined on input line 1988.
+Package natbib Warning: Citation `rgdal' on page 18 undefined on input line 198
+9.
 
 
-LaTeX Warning: Citation `geosphere' on page 18 undefined on input line 1988.
+Package natbib Warning: Citation `geosphere' on page 18 undefined on input line
+ 1989.
 
-Package color Info: Redefining color shadecolor on input line 2046.
+
+Package natbib Warning: Citation `Banerjee2004' on page 18 undefined on input l
+ine 1994.
+
+
+Package natbib Warning: Citation `rgdal' on page 18 undefined on input line 200
+2.
+
+
+Package natbib Warning: Citation `evenden1990cartographic' on page 18 undefined
+ on input line 2005.
+
+Package color Info: Redefining color shadecolor on input line 2047.
 <figure/minimal-unnamed-chunk-9-1.pdf, id=287, 505.89pt x 505.89pt>
 File: figure/minimal-unnamed-chunk-9-1.pdf Graphic file (type pdf)
 <use figure/minimal-unnamed-chunk-9-1.pdf>
 Package pdftex.def Info: figure/minimal-unnamed-chunk-9-1.pdf  used on input li
-ne 2048.
-(pdftex.def)             Requested size: 472.03123pt x 472.03983pt.
-Package color Info: Redefining color shadecolor on input line 2076.
-<figure/minimal-unnamed-chunk-10-1.pdf, id=290, 505.89pt x 505.89pt>
-File: figure/minimal-unnamed-chunk-10-1.pdf Graphic file (type pdf)
-<use figure/minimal-unnamed-chunk-10-1.pdf>
-Package pdftex.def Info: figure/minimal-unnamed-chunk-10-1.pdf  used on input l
-ine 2078.
+ne 2049.
 (pdftex.def)             Requested size: 472.03123pt x 472.03983pt.
 [18] [19 <./figures/3Dplots-coarseGRIDvsKDE.png (PNG copy)>] [20 <./figures/3Dp
 lots-fineGRIDvsKDE.png (PNG copy)>] [21 <./figure/minimal-unnamed-chunk-9-1.pdf
 >]
+Package color Info: Redefining color shadecolor on input line 2077.
+<figure/minimal-unnamed-chunk-10-1.pdf, id=316, 505.89pt x 505.89pt>
+File: figure/minimal-unnamed-chunk-10-1.pdf Graphic file (type pdf)
+<use figure/minimal-unnamed-chunk-10-1.pdf>
+Package pdftex.def Info: figure/minimal-unnamed-chunk-10-1.pdf  used on input l
+ine 2079.
+(pdftex.def)             Requested size: 472.03123pt x 472.03983pt.
 
-LaTeX Warning: Citation `chambers2008software' on page 22 undefined on input li
-ne 2135.
+Package natbib Warning: Citation `jonsen86rss' on page 22 undefined on input li
+ne 2100.
 
 
-LaTeX Warning: Citation `sp' on page 22 undefined on input line 2141.
+Package natbib Warning: Citation `patterson2010using' on page 22 undefined on i
+nput line 2100.
 
 
-LaTeX Warning: Citation `asdar' on page 22 undefined on input line 2141.
+Package natbib Warning: Citation `chambers2008software' on page 22 undefined on
+ input line 2136.
 
 
-LaTeX Warning: Citation `asdar' on page 22 undefined on input line 2184.
+Package natbib Warning: Citation `sp' on page 22 undefined on input line 2141.
+
+
+Package natbib Warning: Citation `sp' on page 22 undefined on input line 2142.
+
+
+Package natbib Warning: Citation `asdar' on page 22 undefined on input line 214
+2.
+
+
+Package natbib Warning: Citation `asdar' on page 22 undefined on input line 218
+5.
+
+
+Package natbib Warning: Citation `spatstat' on page 22 undefined on input line 
+2198.
+
+
+Package natbib Warning: Citation `maptools' on page 22 undefined on input line 
+2198.
 
 [22] [23 <./figure/minimal-unnamed-chunk-10-1.pdf>]
-Package color Info: Redefining color shadecolor on input line 2217.
+Package color Info: Redefining color shadecolor on input line 2218.
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 2222.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 2223.
 
-Overfull \hbox (24.50928pt too wide) in paragraph at lines 2252--2258
+Overfull \hbox (24.50928pt too wide) in paragraph at lines 2244--2250
 []\T1/pplx/m/n/10 The dates and times in this ob-ject are still just text from 
 the file, so these are con-verted to the \T1/cmtt/m/n/10 DateTimeClasses
  []
 
-Package color Info: Redefining color shadecolor on input line 2269.
-Package color Info: Redefining color shadecolor on input line 2276.
-Package color Info: Redefining color shadecolor on input line 2283.
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 228
-7.
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
-File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [24]
-Package color Info: Redefining color shadecolor on input line 2314.
+Package color Info: Redefining color shadecolor on input line 2261.
+Package color Info: Redefining color shadecolor on input line 2268.
+Package color Info: Redefining color shadecolor on input line 2275.
 
-Overfull \hbox (152.56624pt too wide) in paragraph at lines 2318--2318
+Package natbib Warning: Citation `terauds2006foraging' on page 24 undefined on 
+input line 2299.
+
+Package color Info: Redefining color shadecolor on input line 2304.
+[24]
+Overfull \hbox (152.56624pt too wide) in paragraph at lines 2308--2308
 [][]\T1/cmtt/m/n/10 argosfiles[] []<-[] []list.files[][]([][]path[] []=[] []"G:
 /DATA/tracks/blackBrowed/"[][],[] []pattern[] []=[] []".dat"[][],[] []full.name
 s[] []=[] []TRUE[][],[] []ignore.case[] []=[] []TRUE[][])[][] 
  []
 
-Package color Info: Redefining color shadecolor on input line 2373.
-Package color Info: Redefining color shadecolor on input line 2388.
+Package color Info: Redefining color shadecolor on input line 2363.
+Package color Info: Redefining color shadecolor on input line 2376.
 [25]
-Package color Info: Redefining color shadecolor on input line 2411.
-Package color Info: Redefining color shadecolor on input line 2433.
-Package color Info: Redefining color shadecolor on input line 2466.
-Package color Info: Redefining color shadecolor on input line 2483.
-[26]
+Package color Info: Redefining color shadecolor on input line 2402.
+Package color Info: Redefining color shadecolor on input line 2422.
+Package color Info: Redefining color shadecolor on input line 2453.
+Package color Info: Redefining color shadecolor on input line 2464.
 
-LaTeX Warning: Citation `MCF92' on page 27 undefined on input line 2511.
+Package natbib Warning: Citation `BHMS02' on page 26 undefined on input line 24
+90.
 
-Package color Info: Redefining color shadecolor on input line 2514.
-[27]
-Package color Info: Redefining color shadecolor on input line 2584.
-<figure/minimal-unnamed-chunk-23-1.pdf, id=363, 505.89pt x 505.89pt>
+
+Package natbib Warning: Citation `MCF92' on page 26 undefined on input line 249
+2.
+
+Package color Info: Redefining color shadecolor on input line 2495.
+[26] [27]
+Package color Info: Redefining color shadecolor on input line 2571.
+<figure/minimal-unnamed-chunk-23-1.pdf, id=362, 505.89pt x 505.89pt>
 File: figure/minimal-unnamed-chunk-23-1.pdf Graphic file (type pdf)
 <use figure/minimal-unnamed-chunk-23-1.pdf>
 Package pdftex.def Info: figure/minimal-unnamed-chunk-23-1.pdf  used on input l
-ine 2593.
+ine 2580.
 (pdftex.def)             Requested size: 472.03123pt x 472.03983pt.
 
-LaTeX Warning: Citation `freitas2008simple' on page 28 undefined on input line 
-2617.
+Package natbib Warning: Citation `freitas2008simple' on page 28 undefined on in
+put line 2604.
 
 
-LaTeX Warning: Citation `argosfilter' on page 28 undefined on input line 2621.
+Package natbib Warning: Citation `argosfilter' on page 28 undefined on input li
+ne 2608.
 
-Package color Info: Redefining color shadecolor on input line 2625.
-Package color Info: Redefining color shadecolor on input line 2645.
-Package color Info: Redefining color shadecolor on input line 2676.
+Package color Info: Redefining color shadecolor on input line 2612.
+Package color Info: Redefining color shadecolor on input line 2632.
+Package color Info: Redefining color shadecolor on input line 2663.
 [28] [29 <./figure/minimal-unnamed-chunk-23-1.pdf>]
-Package color Info: Redefining color shadecolor on input line 2705.
-Package color Info: Redefining color shadecolor on input line 2719.
-Package color Info: Redefining color shadecolor on input line 2730.
-Package color Info: Redefining color shadecolor on input line 2758.
+Package color Info: Redefining color shadecolor on input line 2692.
+Package color Info: Redefining color shadecolor on input line 2706.
+Package color Info: Redefining color shadecolor on input line 2717.
+Package color Info: Redefining color shadecolor on input line 2745.
 [30]
-Package color Info: Redefining color shadecolor on input line 2789.
-Package color Info: Redefining color shadecolor on input line 2836.
-<figure/minimal-unnamed-chunk-33-1.pdf, id=383, 505.89pt x 505.89pt>
+Package color Info: Redefining color shadecolor on input line 2776.
+Package color Info: Redefining color shadecolor on input line 2823.
+<figure/minimal-unnamed-chunk-33-1.pdf, id=382, 505.89pt x 505.89pt>
 File: figure/minimal-unnamed-chunk-33-1.pdf Graphic file (type pdf)
 <use figure/minimal-unnamed-chunk-33-1.pdf>
 Package pdftex.def Info: figure/minimal-unnamed-chunk-33-1.pdf  used on input l
-ine 2838.
+ine 2825.
 (pdftex.def)             Requested size: 472.03123pt x 472.03983pt.
-Package color Info: Redefining color shadecolor on input line 2879.
-<figure/minimal-unnamed-chunk-35-1.pdf, id=385, 505.89pt x 505.89pt>
+Package color Info: Redefining color shadecolor on input line 2866.
+<figure/minimal-unnamed-chunk-35-1.pdf, id=384, 505.89pt x 505.89pt>
 File: figure/minimal-unnamed-chunk-35-1.pdf Graphic file (type pdf)
 <use figure/minimal-unnamed-chunk-35-1.pdf>
 Package pdftex.def Info: figure/minimal-unnamed-chunk-35-1.pdf  used on input l
-ine 2886.
+ine 2873.
 (pdftex.def)             Requested size: 472.03123pt x 472.03983pt.
 [31] [32 <./figure/minimal-unnamed-chunk-33-1.pdf>] [33 <./figure/minimal-unnam
 ed-chunk-35-1.pdf>]
-Package color Info: Redefining color shadecolor on input line 2926.
-Package color Info: Redefining color shadecolor on input line 2946.
-<figure/minimal-unnamed-chunk-38-1.pdf, id=420, 505.89pt x 505.89pt>
+Package color Info: Redefining color shadecolor on input line 2913.
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 291
+5.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Package color Info: Redefining color shadecolor on input line 2933.
+<figure/minimal-unnamed-chunk-38-1.pdf, id=419, 505.89pt x 505.89pt>
 File: figure/minimal-unnamed-chunk-38-1.pdf Graphic file (type pdf)
 <use figure/minimal-unnamed-chunk-38-1.pdf>
 Package pdftex.def Info: figure/minimal-unnamed-chunk-38-1.pdf  used on input l
-ine 2955.
+ine 2942.
 (pdftex.def)             Requested size: 472.03123pt x 472.03983pt.
-Package color Info: Redefining color shadecolor on input line 3000.
-<figure/minimal-unnamed-chunk-39-1.pdf, id=422, 505.89pt x 505.89pt>
+Package color Info: Redefining color shadecolor on input line 2987.
+<figure/minimal-unnamed-chunk-39-1.pdf, id=421, 505.89pt x 505.89pt>
 File: figure/minimal-unnamed-chunk-39-1.pdf Graphic file (type pdf)
 <use figure/minimal-unnamed-chunk-39-1.pdf>
 Package pdftex.def Info: figure/minimal-unnamed-chunk-39-1.pdf  used on input l
-ine 3002.
+ine 2989.
 (pdftex.def)             Requested size: 472.03123pt x 472.03983pt.
-Package color Info: Redefining color shadecolor on input line 3013.
-<figure/minimal-unnamed-chunk-40-1.pdf, id=423, 505.89pt x 505.89pt>
+Package color Info: Redefining color shadecolor on input line 3000.
+<figure/minimal-unnamed-chunk-40-1.pdf, id=422, 505.89pt x 505.89pt>
 File: figure/minimal-unnamed-chunk-40-1.pdf Graphic file (type pdf)
 <use figure/minimal-unnamed-chunk-40-1.pdf>
 Package pdftex.def Info: figure/minimal-unnamed-chunk-40-1.pdf  used on input l
-ine 3034.
+ine 3021.
 (pdftex.def)             Requested size: 472.03123pt x 472.03983pt.
 
-LaTeX Warning: Float too large for page by 70.32802pt on input line 3046.
+LaTeX Warning: Float too large for page by 70.32802pt on input line 3033.
 
 [34] [35 <./figure/minimal-unnamed-chunk-38-1.pdf>]
 
-LaTeX Warning: Citation `Taylor:BIRD' on page 36 undefined on input line 3061.
+Package natbib Warning: Citation `Taylor:BIRD' on page 36 undefined on input li
+ne 3048.
 
 
-LaTeX Warning: Citation `BHMS02' on page 36 undefined on input line 3061.
+Package natbib Warning: Citation `BHMS02' on page 36 undefined on input line 30
+48.
 
 [36 <./figure/minimal-unnamed-chunk-39-1.pdf>] [37 <./figure/minimal-unnamed-ch
 unk-40-1.pdf>]
 
-LaTeX Warning: Reference `chapter3' on page 38 undefined on input line 3170.
+LaTeX Warning: Reference `chapter3' on page 38 undefined on input line 3157.
 
 
-LaTeX Warning: Citation `M01' on page 38 undefined on input line 3171.
+Package natbib Warning: Citation `M01' on page 38 undefined on input line 3158.
 
 
-LaTeX Warning: Citation `HB01' on page 38 undefined on input line 3179.
+
+Package natbib Warning: Citation `HB01' on page 38 undefined on input line 3166
+.
 
 
-LaTeX Warning: Citation `Ekstrom' on page 38 undefined on input line 3179.
+Package natbib Warning: Citation `Ekstrom' on page 38 undefined on input line 3
+166.
 
 
-LaTeX Warning: Citation `Welch1999' on page 38 undefined on input line 3179.
+Package natbib Warning: Citation `Welch1999' on page 38 undefined on input line
+ 3166.
 
 [38]
 <figures/gunnArchival.png, id=466, 412.54124pt x 429.605pt>
 File: figures/gunnArchival.png Graphic file (type png)
 <use figures/gunnArchival.png>
-Package pdftex.def Info: figures/gunnArchival.png  used on input line 3210.
+Package pdftex.def Info: figures/gunnArchival.png  used on input line 3197.
 (pdftex.def)             Requested size: 341.43306pt x 355.56255pt.
 
-LaTeX Warning: Citation `Gunn:GEOL' on page 39 undefined on input line 3214.
+Package natbib Warning: Citation `Gunn:GEOL' on page 39 undefined on input line
+ 3201.
 
 
-LaTeX Warning: Citation `Gunn:GEOL' on page 39 undefined on input line 3214.
+Package natbib Warning: Citation `Gunn:GEOL' on page 39 undefined on input line
+ 3201.
+
+
+Package natbib Warning: Citation `Argos:MAN' on page 39 undefined on input line
+ 3223.
 
 [39 <./figures/gunnArchival.png (PNG copy)>]
 
-LaTeX Warning: Reference `chapter3' on page 40 undefined on input line 3250.
+LaTeX Warning: Reference `chapter3' on page 40 undefined on input line 3237.
 
 
-LaTeX Warning: Reference `chapter5' on page 40 undefined on input line 3253.
+LaTeX Warning: Reference `chapter5' on page 40 undefined on input line 3240.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3292.
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3279.
 [40]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3292.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3279.
 (./chapter2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3292.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3292.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3279.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3279.
 
 Package rerunfilecheck Info: File `chapter2.out' has not changed.
 (rerunfilecheck)             Checksum: 279E8622BE514107A2F301DD04875796;4819.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3292.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3279.
  ) 
 Here is how much of TeX's memory you used:
- 10115 strings out of 494923
- 145705 string characters out of 6180742
- 211363 words of memory out of 5000000
- 13173 multiletter control sequences out of 15000+600000
+ 10456 strings out of 494923
+ 149810 string characters out of 6180742
+ 216881 words of memory out of 5000000
+ 13510 multiletter control sequences out of 15000+600000
  57198 words of font info for 107 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  30i,8n,37p,610b,372s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -866,7 +1040,7 @@ e/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pala
 tino/uplri8a.pfb>
-Output written on chapter2.pdf (40 pages, 1429199 bytes).
+Output written on chapter2.pdf (40 pages, 1445118 bytes).
 PDF statistics:
  727 PDF objects out of 1000 (max. 8388607)
  457 compressed objects within 5 object streams
