@@ -15,6 +15,7 @@
 \hypersetup{
  pdfstartview={XYZ null null 1}}
 \usepackage{breakurl}
+\include{newcom}
 \begin{document}
 
 <<setup, include=FALSE, cache=FALSE>>=
@@ -28,8 +29,6 @@ options(formatR.arrow=TRUE,width=90)
 \label{chapter2}
 \author{Michael D. Sumner}
 \maketitle
-
-\end document
 
 
 This chapter discusses problems faced with tracking data that concern
@@ -3141,7 +3140,7 @@ of track visualizations and other summaries.
 
 \begin{figure}[!ht]
   \begin{center}
- \includegraphics[width=120mm]{roughfigures/gunnArchival.png}
+ \includegraphics[width=120mm]{figures/gunnArchival.png}
   \end{center}
   \caption{ Light level geo-locations for black marlin in the Coral
     Sea. This image is taken from Figure~3a in \cite{Gunn:GEOL} and is
